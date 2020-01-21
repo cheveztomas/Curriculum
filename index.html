@@ -1,56 +1,344 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>Thumber &mdash; Colorlib Website Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tomás Chévez</title>
-	<script src="js/app.js" type="text/javascript"></script>
-	<script src="js/jquery-3.4.0.js" type="text/javascript"></script>
-	<script src="js/bootstrap.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-<body>
-	<nav class="navbar  navbar-dark bg-primary">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Disabled</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
-	</nav>
-</body>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+
+  <div class="site-wrap">
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <header class="header-bar d-flex d-lg-flex align-items-center" data-aos="fade-down">
+    <div class="site-logo">
+      <a href="index.html">Thumber</a>
+    </div>
+    
+    <div class="d-inline-block d-xl-block ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span> <span style="position: relative;top: -4px; text-transform: uppercase;">Menu</span></a></div>
+
+    <div class="main-menu d-none">
+      <ul class="js-clone-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="bio.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="social js-clone-nav">
+        <li><a href="#"><span class="icon-facebook"></span></a></li>
+        <li><a href="#"><span class="icon-twitter"></span></a></li>
+        <li><a href="#"><span class="icon-instagram"></span></a></li>
+      </ul>
+    </div>
+  </header> 
+  
+
+  <div class="swiper-container gallery-top">
+<div class="swiper-wrapper">
+<div class="swiper-slide cover" style="background-image: url('images/img_1.jpg');">
+  <a href="images/img_1.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here</h2>
+      <div class="scrollbar-inner style-scrollbar-sm js-scrollbar-container">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis architecto deserunt doloribus, nisi placeat quas ratione perferendis? Placeat aliquid assumenda, odio numquam vero eveniet fugit blanditiis dolorum laudantium voluptatibus!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_2.jpg');">
+  <a href="images/img_2.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 2</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_3.jpg');">
+  <a href="images/img_3.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 3</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_4.jpg');">
+  <a href="images/img_4.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 4</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_5.jpg');">
+  <a href="images/img_5.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 5</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_6.jpg');">
+  <a href="images/img_6.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 6</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_7.jpg');">
+  <a href="images/img_7.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 7</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_8.jpg');">
+  <a href="images/img_8.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 8</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_9.jpg');">
+  <a href="images/img_9.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 9</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_10.jpg');">
+  <a href="images/img_10.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 10</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_1.jpg');">
+  <a href="images/img_1.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here</h2>
+      <div class="scrollbar-inner style-scrollbar-sm js-scrollbar-container">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis architecto deserunt doloribus, nisi placeat quas ratione perferendis? Placeat aliquid assumenda, odio numquam vero eveniet fugit blanditiis dolorum laudantium voluptatibus!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_2.jpg');">
+  <a href="images/img_2.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 2</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_3.jpg');">
+  <a href="images/img_3.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 3</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_4.jpg');">
+  <a href="images/img_4.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 4</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_5.jpg');">
+  <a href="images/img_5.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 5</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_6.jpg');">
+  <a href="images/img_6.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 6</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_7.jpg');">
+  <a href="images/img_7.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 7</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_8.jpg');">
+  <a href="images/img_8.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 8</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_9.jpg');">
+  <a href="images/img_9.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 9</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-slide cover" style="background-image: url('images/img_10.jpg');">
+  <a href="images/img_10.jpg" data-fancybox="gallery" class="zoom"><span class="icon-search"></span></a>
+  <div class="img-info">
+    <span class="btn-toggle-expand"><span class="icon-call_made"></span></span>
+    <div class="img-info-content">
+      <h2>Image Title Here 10</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, ipsam, illo dolorum laboriosam voluptatum laudantium.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="swiper-button-next swiper-button-white"></div>
+<div class="swiper-button-prev swiper-button-white"></div>
+</div>
+<div class="swiper-container gallery-thumbs">
+<div class="swiper-wrapper">
+<div class="swiper-slide cover" style="background-image:url(images/img_1.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_2.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_3.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_4.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_5.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_6.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_7.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_8.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_9.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_10.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_1.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_2.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_3.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_4.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_5.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_6.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_7.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_8.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_9.jpg)"></div>
+<div class="swiper-slide cover" style="background-image:url(images/img_10.jpg)"></div>
+</div>
+</div>
+
+</div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- <script src="js/jquery.stellar.min.js"></script> -->
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.scrollbar.js"></script>
+  <script src="js/main.js"></script>
+
+  
+    
+  </body>
 </html>
